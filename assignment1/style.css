@@ -1,0 +1,85 @@
+/* navbar section */
+.nav_section{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+#main_heading{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0.56px red;
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 0.56px red;
+}
+.navbar li a:hover{
+    color: rgb(212, 30, 30);
+    color
+}
+/* search box section */
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+/* qualification & Experience table section */
+#qualification_heading{
+    text-align: center;
+    text-decoration: underline;
+}
+#experience_heading{
+    text-align: center;
+    text-decoration: underline;
+}
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #000;
+    border-radius: 40px;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+/* Apply all H3 section  */
+div >h3{
+    color: white;
+    text-shadow: 2px 0.56px red;
+}
